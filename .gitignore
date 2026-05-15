@@ -1,29 +1,11 @@
 __pycache__/
-*.py[cod]
-*.egg-info/
+*.pyc
+.venv/
 .mypy_cache/
 .pytest_cache/
-.venv/
-venv/
-.env
-.envrc
-
-# Project artifacts
-data/raw/
-data/processed/
-data/output/
-data/datasets/
-*.log
-
-# Models cache
-.cache/
-models/
-
-# OS
 .DS_Store
-Thumbs.db
-
-# Personal learning docs (not part of the submission)
-PREREQUIS.md
-CODE_EXPLAINED.md
-LEARN.md
+*.o
+a.out
+data/raw/
+data/datasets/
+data/output/
